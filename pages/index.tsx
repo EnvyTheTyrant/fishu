@@ -25,13 +25,13 @@ const Home: NextPage = () => {
             Get a website!
           </p>
         </div>
-        <Image
+        {/* <Image
           src={Fish1}
           alt="whale"
           className=" h-auto w-1/2"
           width={400}
           height={400}
-        />
+        /> */}
       </div>
 
       {/* Hero Section Light End */}
