@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "../components/Header";
+import Fish1 from "../public/img/fish2-dark@4x.png";
 
 const Home: NextPage = () => {
   return (
@@ -25,7 +26,7 @@ const Home: NextPage = () => {
           </p>
         </div>
         <Image
-          src="/../public/img/fish2-dark@4x.png"
+          src={Fish1}
           alt="whale"
           className=" h-auto w-1/2"
           width={400}
