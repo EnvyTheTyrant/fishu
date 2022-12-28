@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
+@font-face {
+  font-family: "Bosman-Black";
+  src: url("../public/fonts/Bosman Black.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bosman-Stripes";
+  src: url("../public/fonts/Bosman Stripes.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bosman-Empty";
+  src: url("../public/fonts/Bosman Empty.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bosman-Dings";
+  src: url("../public/fonts/Bosman Dings.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sailors-Diary-Sans";
+  src: url("../public/fonts/Sailors Diary Sans.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sonorous-Rough";
+  src: url("../public/fonts/Sonorous-Rough.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sonorous-Textured";
+  src: url("../public/fonts/Sonorous-Textured.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sonorous";
+  src: url("../public/fonts/Sonorous.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Reward";
+  src: url("../public/fonts/Reward.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "High";
+  src: url("../public/fonts/High Performance Demo.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Organique";
+  src: url("../public/fonts/organique DEMO.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tequilla";
+  src: url("../public/fonts/MexicanTequila.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tequilla-italic";
+  src: url("../public/fonts/MexicanTequila-Italic.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Retrograph";
+  src: url("../public/fonts/RetrographDemo.ttf");
+  font-style: normal;
+}
 @tailwind utilities;
