@@ -70,4 +70,19 @@
   src: url("../public/fonts/RetrographDemo.ttf");
   font-style: normal;
 }
+@font-face {
+  font-family: "NG";
+  src: url("../public/fonts/NeurialGrotesk-Regular.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "NG-Bold";
+  src: url("../public/fonts/NeurialGrotesk-Bold.otf");
+  font-style: normal;
+}
+@font-face {
+  font-family: "NG-Light";
+  src: url("../public/fonts/NeurialGrotesk-Light.otf");
+  font-style: normal;
+}
 @tailwind utilities;
