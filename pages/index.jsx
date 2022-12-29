@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "../sections/Header";
-import Scramble from "../components/scramble";
 
 const Home = () => {
   return (
