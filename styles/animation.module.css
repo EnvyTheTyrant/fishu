@@ -1,0 +1,68 @@
+@keyframes track-in-out {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  20% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+  80% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+}
+
+#InOutText {
+  font-size: 40px;
+  margin-top: 50px;
+  color: #009499;
+  word-spacing: 10px;
+  text-shadow: 2px 2px 5px grey;
+  width: 100%;
+  text-align: center;
+  font-family: "Monoton", cursive;
+  animation-name: track-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+.Banner {
+  overflow: hidden;
+  /* width: fit-content; */
+  display: flex;
+  position: relative;
+}
+
+.Banner .mar {
+  transition: transform 1s;
+  animation: mar linear infinite;
+  animation-duration: 1s;
+}
+.Banner .mar2 {
+  transition: transform 1s;
+  animation: mar2 linear infinite;
+  animation-duration: 1s;
+  position: absolute;
+}
+
+@keyframes mar {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes mar2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

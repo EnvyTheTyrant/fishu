@@ -9,7 +9,7 @@ function MobileNav({ open, setOpen }) {
         open ? "-translate-y-0" : "-translate-y-full"
       } transition-transform duration-300 ease-in-out filter`}
     >
-      <div className="absolute top-[72px] left-12 sm:left-24 lg:left-0">
+      <div className="absolute top-8 sm:top-10 md:top-12 lg:top-14 left-12 sm:left-24 lg:left-0">
         <ModeToggle />
       </div>
       <div className="flex flex-col justify-center items-center mt-28">

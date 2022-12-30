@@ -1,9 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-
-const Header = () => {
-  return <header className="h-64">Hero</header>;
-};
-
-export default Header;
+import HeroStyle from "../styles/hero.module.css";
+import TextBold from "../components/TextBold";
+import Animation from "../styles/animation.module.css";
+import Banner from "../components/Banner";
+export default function Hero() {
+  return <div></div>;
+}

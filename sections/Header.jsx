@@ -6,7 +6,7 @@ import FullScreenNavbar from "../components/FullScreenNavbar";
 
 const Header = () => {
   return (
-    <div className=" mt-6 sm:mt-8 md:mt-10 lg:mt-12  flex justify-between items-center border-b-[1px] dark:border-hidden">
+    <div className=" mt-6 sm:mt-8 md:mt-10 lg:mt-12 flex justify-between items-center border-b-[1px] dark:border-hidden">
       <Link
         href="/"
         className=" group text-5xl font-[Reward] flex items-center -translate-y-1 cursor-pointer"
