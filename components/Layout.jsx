@@ -10,13 +10,15 @@ const Layout = ({ children }) => {
       </Head>
       <div>
         <main className=" ">{children}</main>
-        <div className=" w-[100vw] absolute top-[50vh] mx-auto overflow-hidden">
+        <div className=" w-[100vw] absolute top-[60vh] mx-auto overflow-hidden">
           <Banner className="w-max pointer-events-none" duration="300s">
             <div className="flex relative gap-6 px-6 opacity-60">
-              <DLimg name="fish-1" className=" h-[40vh]" />
-              <DLimg name="fish-2" className=" h-[40vh]" />
-              <DLimg name="jellyfish-1" className=" h-[40vh]" />
-              <DLimg name="octopus-2" className=" h-[40vh]" />
+              <DLimg name="whale-1" className=" h-[30vh]" />
+              <DLimg name="shark-1" className=" h-[30vh]" />
+              <DLimg name="whale-2" className=" h-[30vh]" />
+              <DLimg name="dolphin-1" className=" h-[30vh]" />
+              <DLimg name="whale-3" className=" h-[30vh]" />
+              {/* <DLimg name="fish-3" className=" h-[30vh]" /> */}
             </div>
           </Banner>
         </div>
